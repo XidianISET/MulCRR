@@ -1,0 +1,1 @@
+from mulcrr.pages.demo import demo

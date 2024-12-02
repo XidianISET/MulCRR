@@ -1,0 +1,6 @@
+{
+    "prompt_name": {
+        "type": "(optional) raw/template",
+        "content": "template content/raw string content. Attention: All required prompt name are defined in agent class file."
+    }
+}

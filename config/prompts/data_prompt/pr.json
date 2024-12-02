@@ -1,0 +1,10 @@
+{
+  "data_prompt": {
+    "type": "template",
+    "content": "[PR_id]: {PR_id}\n[PR_project]: {project}\n[PR_subject]: {subject}\n[PR_files]:\n{files}\n[PR_contributor]: {owner_profile}\n[candidate_reviewer_id]: {candidate_reviewer_id}\n"
+  },
+  "finish": {
+    "type": "raw",
+    "content": "[] (should be a list from all given candidate id)"
+  }
+}

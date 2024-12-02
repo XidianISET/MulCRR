@@ -1,0 +1,38 @@
+{
+    "supported_tasks": [
+        "pr"
+    ],
+    "agents": {
+        "Manager": {
+            "action_config_path": "config/agents/manager_action.json",
+            "thought_config_path": "config/agents/manager_thought.json"
+        },
+        "Supervisor": {
+            "config_path": "config/agents/supervisor.json",
+            "prompt_config": "config/prompts/agent_prompt/supervisor.json"
+        },
+        "Analyst": {
+            "config_path": "config/agents/analyst.json",
+            "prompt_config": "config/prompts/agent_prompt/analyst.json"
+        },
+        "Evaluator": {
+            "config_path": "config/agents/evaluator.json",
+            "prompt_config": "config/prompts/agent_prompt/evaluator.json"
+        },
+        "Retriever": {
+            "config_path": "config/agents/retriever.json",
+            "prompt_config": "config/prompts/agent_prompt/retriever.json"
+        },
+        "Hallucination": {
+            "config_path": "config/agents/hallucination.json",
+            "prompt_config": "config/prompts/agent_prompt/hallucination.json"
+        },
+        "Explainer": {
+            "config_path": "config/agents/explainer.json",
+            "prompt_config": "config/prompts/agent_prompt/explainer.json"
+        }
+    },
+    "agent_prompt": "config/prompts/manager_prompt/all_agents.json",
+    "data_prompt": "config/prompts/data_prompt/{task}.json",
+    "max_step": 10
+}
